@@ -1,0 +1,1 @@
+docker run -it --rm -p 8501:8501 --name tf_serving -v ~/cf/model_output:/models/image_classification -e MODEL_NAME=image_classification tensorflow/serving
